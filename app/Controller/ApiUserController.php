@@ -4,13 +4,14 @@ namespace Controller;
 
 use \W\Controller\Controller;
 
-class DefaultController extends Controller
+class ApiUserController extends Controller
 {
 	/**
 	 * 
 	 */
-	public function home()
+	public function login()
 	{
 		$this->show('default/home');
 	}
+
 }
